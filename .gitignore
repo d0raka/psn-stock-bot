@@ -1,0 +1,21 @@
+# Secrets
+.env
+*.env
+!.env.example
+
+# Backups
+*.bak-*
+*.bak
+
+# Runtime data
+data/state.json
+data/bot.log
+data/*.log
+data/*.log.*
+data/*.tmp
+data/amazon_cookies.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/

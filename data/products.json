@@ -1,0 +1,32 @@
+[
+  {
+    "asin": "B07K6RYVHR",
+    "amount": 1000,
+    "label": "1000 ₹",
+    "enabled": true
+  },
+  {
+    "asin": "B093QF35KZ",
+    "amount": 2000,
+    "label": "2000 ₹",
+    "enabled": true
+  },
+  {
+    "asin": "B07K6PVR8B",
+    "amount": 3000,
+    "label": "3000 ₹",
+    "enabled": true
+  },
+  {
+    "asin": "B07K6RYVJ5",
+    "amount": 4000,
+    "label": "4000 ₹",
+    "enabled": true
+  },
+  {
+    "asin": "B0B3DDW7TB",
+    "amount": 5000,
+    "label": "5000 ₹",
+    "enabled": true
+  }
+]

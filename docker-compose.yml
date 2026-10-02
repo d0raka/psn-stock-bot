@@ -1,0 +1,17 @@
+name: psn-stock-bot
+services:
+  psn-stock-bot:
+    build: .
+    image: psn-stock-bot:latest
+    container_name: psn-stock-bot
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - ./data:/app/data      # products.json (config) + state.json, bot.log, amazon_cookies.json (runtime)
+    # Optional: run as your own user so files in ./data are owned by you (ids from `id -u` / `id -g`).
+    # user: "1000:1000"
+    mem_limit: 256m
+    cpus: 0.5
+    logging:
+      driver: json-file
+      options: {max-size: "1m", max-file: "3"}
